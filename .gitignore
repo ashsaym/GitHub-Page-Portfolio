@@ -1,0 +1,97 @@
+# Python files
+*.py[cod]
+__pycache__/
+
+# Virtual Environment
+env/
+venv/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.pkl
+*.pycodestyle
+*.coverage
+*.hypothesis/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# If you're using Celery with Django
+celerybeat-schedule
+
+# Media and static files
+/static/
+staticfiles/
+static/
+media/
+
+# Django local settings
+local_settings.py
+
+# Sensitive information
+secrets.py
+
+# pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# PyCharm project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Other development environments
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+Thumbs.db
